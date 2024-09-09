@@ -31,4 +31,19 @@ func main() {
 	fmt.Println("Diff:")
 	fmt.Println(html.UnescapeString(strings.Join(diff.Items, "\n")))
 	fmt.Println()
+
+	backup, err := client.Core().Backup().Download(backups.Items[0].ID)
+	if err != nil {
+		panic(err)
+	}
+	fmt.Println("Backup:")
+	fmt.Printf("Backup is %d characters long", len(backup))
+
+	providers, err := client.Core().Backup().Providers()
+	if err != nil {
+		panic(err)
+	}
+	fmt.Println("Provider:")
+	fmt.Println(providers.Items.This.Description)
+	fmt.Println(providers.Items.This.DirName)
 }
