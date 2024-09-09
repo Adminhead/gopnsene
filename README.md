@@ -1,0 +1,95 @@
+# GOPNSense
+
+Golang OPNSense API client
+
+## API Endpoint Support
+
+- Core API
+  - [ ] Captive Portal 
+  - [ ] Core
+  - [ ] Cron
+  - [ ] DHCP
+  - [ ] DHCPv4
+  - [ ] DHCPv6
+  - [ ] Diagnostics
+  - [ ] Firewall
+  - [ ] Firmware
+  - [ ] IDS
+  - [ ] Interfaces
+  - [ ] IPsec
+  - [ ] Kea
+  - [ ] Menu
+  - [ ] Monit
+  - [ ] OpenVPN
+  - [ ] Proxy
+  - [ ] Routes
+  - [ ] Routing
+  - [ ] Syslog
+  - [ ] Traffic Shaper
+  - [ ] Trust
+  - [ ] Unbound
+  - [ ] Wireguard
+
+- Plugins API
+  - [ ] Acme Client
+  - [ ] APC UPSd
+  - [ ] Backup
+  - [ ] Bind
+  - [ ] Caddy
+  - [ ] Chrony
+  - [ ] Cicap
+  - [ ] ClamAV
+  - [ ] Collectd
+  - [ ] CrowdSec
+  - [ ] Dechw
+  - [ ] Diagnostics
+  - [ ] Dnscrypt Proxy
+  - [ ] DynDNS
+  - [ ] FetchMail
+  - [ ] FreeRADIUS
+  - [ ] FTP Proxy
+  - [ ] HAProxy
+  - [ ] HW Probe
+  - [ ] Iperf
+  - [ ] LLDPd
+  - [ ] Maltrail
+  - [ ] Mdnsrepeater
+  - [ ] Muninnode
+  - [ ] Netdata
+  - [ ] Netsnmp
+  - [ ] Nginx
+  - [ ] Nodeexporter
+  - [ ] Nrpe
+  - [ ] Ntopng
+  - [ ] Nut
+  - [ ] Openconnect
+  - [ ] Postfix
+  - [ ] Proxy
+  - [ ] Proxysso
+  - [ ] Proxyuseracl
+  - [ ] Puppetagent
+  - [ ] Qemuguestagent
+  - [ ] Quagga
+  - [ ] Radsecproxy
+  - [ ] Redis
+  - [ ] Relayd
+  - [ ] Rspamd
+  - [ ] Shadowsocks
+  - [ ] Siproxd
+  - [ ] Smart
+  - [ ] Softether
+  - [ ] Sslh
+  - [ ] Stunnel
+  - [ ] Tayga
+  - [ ] Telegraf
+  - [ ] Tftp
+  - [ ] Tinc
+  - [ ] Tor
+  - [ ] Udpbroadcastrelay
+  - [ ] Vnstat
+  - [ ] Wazuhagent
+  - [ ] Wireguard
+  - [ ] Wol
+  - [ ] Zabbixagent
+  - [ ] Zabbixproxy
+  - [ ] Zerotier

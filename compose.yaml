@@ -1,0 +1,15 @@
+services:
+  opnsense:
+    image: ghcr.io/adminhead/docker-opnsense:24.7.3
+    devices:
+      - /dev/kvm
+    #  - /dev/net/tun
+    # device_cgroup_rules:
+    #   - 'c 10:232 rwm'
+    cap_add:
+      - NET_ADMIN
+    #init: true
+    ports:
+      - 10443:443
+    stop_grace_period: 3m
+    restart: no
